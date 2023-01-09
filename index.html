@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>js</title>
+
+
+<body>
+
+    <div class="container d-flex flex-collumn min-vh-100 justify-content-center align-items-center">
+        
+
+        <form class="row g-3 needs-validation"  id="lesson" novalidate> 
+            <div class="col-md-6">
+                <label for="" class="form-label">Prénom</label>
+                <input type="text" class="form-control" name="firstname" id="firstname">
+                <div class="invalid-feedback">
+                    Veuilliez saisir votre prenom.
+                  </div>
+            </div>
+            <div class="col-md-6">
+                <label for="" class="form-label">Nom</label>
+                <input type="text" class="form-control" name="lastname" id="lastname">
+                <div class="invalid-feedback">
+                    Veuilliez saisir votre nom.
+                  </div>
+            </div>
+            <div class="col-md-6">
+                <label for="" class="form-label">E-mail </label>
+                <input type="text" class="form-control" name="email" id="email">
+                <div class="invalid-feedback">
+                    Veuilliez saisir votre email.
+                  </div>
+            </div>
+            <div class="col-md-6">
+                <label for="" class="form-label">Télépone</label>
+                <input type="text" class="form-control" name="phoneNumber" id="phoneNumber">
+                <div class="invalid-feedback">
+                    Veuilliez saisir votre numéro de telephone.
+                  </div>
+
+            </div>
+            <div class="col-md-6">
+                <label for="" class="form-label">Adresse</label>
+                <input type="text" class="form-control" name="address" id="address">
+                <div class="invalid-feedback">
+                    Veuilliez saisir votre Adresse.
+                  </div>
+            </div>
+            <div class="col-md-6">
+                <label for="" class="form-label">Ville</label>
+                <select class="form-select" name="city" id="city">
+                 <option selected disabled value=""> Chose a city...</option>
+                 <option>Schiltigheim</option>
+                 <option>Schiltigheim</option>
+                 <option>Schiltigheim</option>
+                 <option>Schiltigheim</option>
+                </select>
+                <div class="invalid-feedback">
+                    Veuilliz saisir une Ville.
+                  </div>
+
+            </div>
+
+            <div class="col-md-6">
+                <label for="postcode" class="form-label">Code postal </label>
+                <input type="text" class="form-control" name="postcode" id="postcode">
+                <div class="invalid-feedback">
+                    Veuilliez saisir votre code postal.
+                  </div>
+            </div>
+            <div class="col-md-12">
+            <div class="mb-3 form-check">
+                <label class="form-check-label" for="exambleCheck1">J'accepte les condition</label>   
+            <input type="checkbox" class="form-check-input" id="conditions" name="conditions">
+            <div class="invalid-feedback">
+            Merci de bien lire les condition avant de Valider le formulaire
+            
+            </div>             
+            </div>
+            </div>
+            <button type="submit" class="btn btn-primary w-25">Valider</button>
+
+
+
+
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script src="/app.js"></script>
+    
+</body>
+</html>
